@@ -13,17 +13,16 @@ h1 {
   position: relative;
   padding: 8px 8px 32px 8px;
   background: #1D1D1D;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "courier new";
   color: white;
   text-align: center;
-  font-size: 4em;
+  font-size: 5em;
   font-weight: 100;
 
 }
 
 h1:after {
   background: linear-gradient(-45deg, #F3F3F3 16px, transparent 0), linear-gradient(45deg, #F3F3F3 16px, transparent 0);
-  /*background-position: left-bottom;*/
   background-repeat: repeat-x;
   background-size: 32px 32px;
   content: " ";
@@ -41,7 +40,7 @@ basics {
 
 h2 {
   font-size: 2em;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Courier New", Times, serif;
 }
 
 img {
@@ -53,31 +52,25 @@ img {
 }
 .card {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding bottom: 70px;
 }
-cardInfo h2 {
-  margin-left: 40px;
-}
+
 ul {
 
 }
 .basics li {
   color: #629D9D;
-  font-size: 15px
+  line-height: 25px;
+
 }
 
-.vertical Line {
-  margin-left: 11rem;
-  border-left: thin solid #bdbdbd;
-  height: 7rem;
-  margin-top: 60px;
-}
 .story {
   margin-top: -25px;
   padding: 20px;
   width: 30%;
+
 }
 
 a:link {
@@ -93,9 +86,9 @@ a:hover{
 }
 
 p {
-  border-left: 1px #CCCCCC;
+  border-left: #d3d3d3 1px solid;
   border-width: medium;
-  color: gray;
+  color: #9D9D9D;
   padding-left: 10px;
   line-height: 25px;
   font-family: "Times New Roman", Times, serif;
