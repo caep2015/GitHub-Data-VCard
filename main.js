@@ -4,8 +4,8 @@ function data() {
   let data = JSON.parse(this.responseText);
   var template = `
 	    <h1>${data.name}</h1>
-	    <div class = card>
-	      <div class = basics>
+	    <div class = "card">
+	      <div class = "basics">
 	        <h2>The Basics</h2>
 	        <div class =userInfo>
 	          <ul style="list-style-type:none">
@@ -16,13 +16,13 @@ function data() {
 	          </ul>
 	        </div>
 	      </div>
-	      <div class = story>
+	      <div class = "story">
 	        <h2>The Story</h2>
 	        <p>${data.bio}</p>
 	      </div>
 	      <img src="${data.avatar_url}">
 	    </div>
-	    </card>
+	    </div> 
 	    `
   main.innerHTML = template;
 
